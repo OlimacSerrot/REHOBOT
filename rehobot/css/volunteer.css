@@ -1,0 +1,61 @@
+  .section {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+	  justify-content: center;
+	  
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Añade un fondo semitransparente para que el texto sea legible */
+    padding: 20px; /* Añade un espacio entre el texto y el borde del contenedor */
+    text-align: right;
+  }
+
+  .text-overlay h2 {
+    color: white; /* Establece el color del texto */
+    font-size: auto; /* Tamaño del texto */
+    line-height: 1.5; /* Altura de línea */
+    font-weight: normal; /* Puedes ajustar el peso de la fuente según tus preferencias */
+    text-align: right;
+  }
+
+  .image-frase-img {
+    display: block; /* Asegúrate de que la imagen sea un bloque para poder centrarla */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    ;
+  }
+
+.container{
+  text-align: left;
+  
+}
+
+.is-capitalize text-lg{
+  text-align: right;
+}
+
+  .block has-text-right {
+    text-align: right;
+  }
+
+  .has-text-right {
+    text-align: right!important;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
